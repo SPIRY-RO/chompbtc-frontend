@@ -1,0 +1,232 @@
+body, #root, #root > .ant-layout {
+  height: 100%;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.vertical-center {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  width: 650px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img.logo {
+  max-width: 60%;
+}
+
+img.nav-logo {
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.ant-layout-header {
+  height: 84px;
+  padding: 10px 50px;
+}
+
+.ant-layout-sider-collapsed img.nav-logo {
+  display: block;
+  margin-left: -35px !important;
+  max-height: 80%;
+  margin-top: 10px;
+}
+
+.ant-layout-sider-collapsed {
+  overflow: hidden;
+}
+
+h1.nav-header {
+  float: left
+}
+
+.animated {
+  transition: all .5s ease;
+}
+
+.hidden {
+  transform: scale(0);
+  height: 0;
+}
+
+.right {
+  float: right;
+}
+
+.no-margin.module-card {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 15px;
+}
+
+.ant-modal-content, .ant-modal-header, .ant-modal-title {
+  background-color: #23232e !important;
+  color: white !important;
+}
+
+.ant-modal-close-x svg {
+  fill: #fff;
+}
+
+.ant-form-item {
+  margin-bottom: 10px !important;
+}
+
+.ant-input-disabled {
+  background-color: #aaa !important;
+}
+
+.ant-select, .ant-select-selection {
+  background: none !important;
+  color: white !important;
+}
+
+.apexcharts-legend.position-top {
+  top: 5px !important
+}
+
+.apexcharts-text, .apexcharts-legend-text {
+  fill: rgba(255,255,255,0.65) !important;
+  color: rgba(255,255,255,0.65) !important;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #53c93b !important;
+  color: white !important;
+}
+
+.ant-layout {
+  /* background-color: #000c17 !important; */
+  background-color: #30303d !important;
+}
+
+.ant-card {
+  box-sizing: border-box;
+  color: rgba(255,255,255,0.65) !important;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum";
+  background: #23232e !important;
+  border-radius: 2px;
+}
+
+.ant-card-body h2.ant-typography {
+  margin-top: 0 !important;
+}
+
+.ant-notification-notice {
+  position: relative;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  overflow: hidden;
+  line-height: 1.5;
+  background: #23232e !important;
+  color: white !important;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ant-notification-notice-message, .ant-notification-notice-close {
+  color: white !important
+}
+
+.ant-btn-primary {
+  background-color: #53c93b !important;
+  border-color: #53c93b !important;
+}
+
+.ant-form-item-control input {
+  color: white !important;
+}
+
+.ant-form-item-control input {
+  background-color: #23232e;
+}
+
+.ant-form-item-control input:focus, .ant-form-item-control input:hover, .ant-form-item-control input:active {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border-width: 2px;
+  border-color: #53c93b !important;
+}
+
+.ant-input-prefix {
+  color: white !important
+}
+
+.module-card {
+  margin: 10px 10px !important;
+}
+
+.green {
+  color: #53c93b !important;
+}
+
+.apexcharts-menu-item, .apexcharts-tooltip {
+  color: #23232e !important;
+}
+
+.ant-menu h1 {
+  display: inline;
+}
+
+.ant-menu-inline-collapsed h1 {
+  opacity: 0 !important;
+}
+
+.ant-form-item-label > label {
+  color: #fff !important;
+}
+
+.ant-form-item-label {
+  text-align: left !important;
+}
+
+.dark {
+  background-color: #23232e !important;
+}
+
+h1, h2, h3, h4, h5, p {
+  color: white !important;
+}
+
+.ant-skeleton-content {
+  opacity: 0.3;
+  animation: skeleton 1s infinite;
+}
+
+@keyframes skeleton {
+  0% { opacity: 0.5; }
+  50% { opacity: 0.8; }
+  100% { opacity: 0.5; }
+}
+
+@media only screen and (max-device-width: 800px) {
+  .module-card {
+    margin: 10px 0 !important;
+  }
+}
